@@ -42,6 +42,10 @@ Pour l'intégration dans vos scripts PHP, voici un exemple :
 
 include <vendor_dir>/autoload.php
 
+use GuzzleHttp\Client;
+use Manyhub\SSO\Client\Component\Signer\Signer;
+use Manyhub\SSO\Client\Component\SSOTokenClient;
+
 $client = new SSOTokenClient(new Client(), new Signer());
 $result = $client->tryAuth(
        'get',
