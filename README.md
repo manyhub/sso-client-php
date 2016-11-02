@@ -4,7 +4,9 @@ Ce dépôt permet à n'importe quel partenaire de Manymore de pouvoir s'authenti
 
 Ce composant est totalement autonome et peut s'utiliser dans n'importe quel projet écrit en PHP.
 
-
+L'installation de ce composant se fait via composer :
+ `` php composer.phar require manyhub/sso-client-php ^0.1 ``
+ 
 #### Dépendance
 
 Ce composant nécessite PHP 5.6 au minimum ainsi que les librairies suivantes :
@@ -12,11 +14,7 @@ Ce composant nécessite PHP 5.6 au minimum ainsi que les librairies suivantes :
  - monolog/monolog (pour la gestion des logs)
  - symfony/console (dans le cas où on veut tester en mode console)
  - paragonie/random_compat (pour la génération aléatoire du nonce oAuth)
- 
- 
-Ces librairies s'installent via Composer (https://getcomposer.com) :
- `` php composer.phar install ``
- 
+  
 #### Utilisation 
 
 En mode console à des fins de tests :
