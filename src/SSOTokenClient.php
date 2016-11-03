@@ -166,10 +166,10 @@ class SSOTokenClient
      *
      * @param string $method
      * @param string $url
-     * @param array $oAuthHeader
+     * @param string $oAuthHeader
      * @return \stdClass
      */
-    private function callSSO($method, $url, array $oAuthHeader)
+    private function callSSO($method, $url, $oAuthHeader)
     {
         $response = $this->client->request($method, $url, [
             'headers' => [
