@@ -6,7 +6,7 @@ Ce composant est totalement autonome et peut s'utiliser dans n'importe quel proj
 
 L'installation de ce composant se fait via [composer](https://getcomposer.org) :
 
- `` php composer.phar require manyhub/sso-client-php ^0.1 ``
+ `` php composer.phar require manyhub/sso-client-php ``
  
 ## Dépendances
 
