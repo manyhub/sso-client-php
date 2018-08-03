@@ -53,7 +53,7 @@ $result = $client->tryAuth(
        $urlSSO,
        $key,
        $secret,
-       'HMAC_SHA1',
+       'HMAC-SHA1',
        '1.0',
        $callback,
        $login,
